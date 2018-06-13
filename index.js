@@ -4,7 +4,7 @@ const YTDL = require("ytdl-core");
 const TOKEN = ""; //APP ID
 const PREFIX ="/";//what "sparks" a command (ex. .add, /help, *ban, etc.)
 
-function randomHex() {
+function randomHex() { //creates random Hex (color)
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
 }//credit to: https://www.paulirish.com/2009/random-hex-color-code-snippets/
 
